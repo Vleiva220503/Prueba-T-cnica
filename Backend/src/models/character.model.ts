@@ -18,7 +18,7 @@ CharacterModel.init(
   {
     id: {
       type: DataTypes.INTEGER,
-      autoIncrement: true, // Assuming id is not auto-incrementing
+      autoIncrement: true, 
       primaryKey: true,
     },
     name: {
@@ -56,7 +56,7 @@ CharacterModel.init(
   },
   {
     sequelize: db,
-    tableName: "characters", // Assuming the table name is "characters"
+    tableName: "characters", 
   }
 );
 
