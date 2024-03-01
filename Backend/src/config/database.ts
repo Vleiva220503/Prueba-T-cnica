@@ -14,6 +14,4 @@ const sequelize = new Sequelize({
   },
 });
 
-// Ahora puedes usar sequelize con las configuraciones de las variables de entorno
-
 export default sequelize;
